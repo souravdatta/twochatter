@@ -27,7 +27,7 @@ public class PiMessageFetcher implements Runnable {
     public PiMessageFetcher(PiChatterMenu ic, UserBean bn) {
         menuref = ic;
         bean = bn;
-        client = new ClientResource("http://immense-atoll-6302.herokuapp.com/api/ping/" + bean.getName());
+        client = new ClientResource("<APP_URL>/api/ping/" + bean.getName());
         runner = new Thread(this);
     }
     

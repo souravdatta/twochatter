@@ -172,7 +172,7 @@ public class PiChatterWindow extends javax.swing.JFrame {
                         String dt = (new Date()).toString();
 
                         ClientResource client = new ClientResource(
-                                "http://immense-atoll-6302.herokuapp.com/api/send/" +
+                                "<APP_URL>/api/send/" +
                                 bean.getName() + "/" +
                                 to + "/" + dt + "/" +
                                 PiCodec.encode(message)
