@@ -1,5 +1,6 @@
 A simple two person chat app.
 
-Server in Ruby -  Sinatra/Rack based app that can be deployed in Heroku.
-Client in Java Swing.
+The server side uses sinatra based Ruby that can be deplyed on Heroku.
+
+The client is written in Java swing as a desktop app that can be minimized to system tray and all that. The minimum JRE version is 7.
 
